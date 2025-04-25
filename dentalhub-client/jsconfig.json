@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./src/*"],
+			"@/form/*": ["./src/components/core/builder/forms/*"]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+module.exports = {
+	tabWidth: 4,
+	endOfLine: "auto",
+	charset: "utf-8",
+	trimTrailingWhitespace: true,
+	insertFinalNewline: true,
+	singleQuote: false,
+	importOrder: [
+		"^react$",
+		"",
+		"^next$",
+		"^next/(.*)$",
+		"",
+		"^(@)(/.*)$",
+		"",
+		"<THIRD_PARTY_MODULES>",
+		"",
+		"^[.]",
+	],
+};
