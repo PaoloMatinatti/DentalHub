@@ -1,0 +1,23 @@
+version: "3.4"
+
+services:
+    dentalhub-api:
+        image: ${DOCKER_REGISTRY-}dentalhubapi
+        container_name: dentalhub-api
+        build:
+            context: .
+            dockerfile: dentalhub-api/Dockerfile
+        ports:
+            - "8080:8080"
+            - "8081:8081"
+    dentalhub-database:
+        image: postgres:latest
+        container_name: dentalhub-database
+        environment:
+            - POSTGRES_DB=dentalhub
+            - POSTGRES_USER=dentalhub
+            - POSTGRES_PASSWORD=dentalhub@pwd$
+        volumes:
+            - ./.containers/dentalhub-db:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"

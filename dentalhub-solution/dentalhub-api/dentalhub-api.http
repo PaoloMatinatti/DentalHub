@@ -1,0 +1,6 @@
+@dentalhub_api_HostAddress = http://localhost:5255
+
+GET {{dentalhub_api_HostAddress}}/ping
+Accept: application/json
+
+###
