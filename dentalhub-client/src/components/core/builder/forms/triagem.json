@@ -1,0 +1,46 @@
+{
+	"questions": [
+		{
+			"index": "nt-1",
+			"label": "Periodontia",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "nt-2",
+			"label": "Endodontia",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "nt-3",
+			"label": "Destística",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "nt-4",
+			"label": "Cirurgia",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "nt-5",
+			"label": "Prótose",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "nt-6",
+			"label": "Encaminhar para atendimento inicial pelo_____período",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		}
+	]
+}

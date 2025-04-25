@@ -1,0 +1,454 @@
+{
+	"questions": [
+		{
+			"index": "qp-01",
+			"label": "Queixa Principal",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"highlight": false,
+			"type": "text"
+		},
+		{
+			"index": "hda-01",
+			"label": "História da Doença Atual",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"highlight": false,
+			"type": "text"
+		},
+		{
+			"index": "htmpa-01",
+			"label": "Você já teve ou já tem: Doenças da Infância",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": ["Catapora", "Caxumba", "Sarampo", "Amigdalite"]
+		},
+		{
+			"index": "htmpa-02",
+			"label": "Você já teve ou já tem: Distúrbios Cardiovasculares",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": true,
+			"items": [
+				"Febre reumática",
+				"Sopros",
+				"Patologias de válvulas",
+				"Anomalias congênitas cardíacas",
+				"Hipertensão",
+				"Arritmias",
+				"Infarto do miocárdio",
+				"Angina ou dor no tórax",
+				"Cirurgias Cardíacas",
+				"Marca-passo",
+				"AVC (Derrame)"
+			]
+		},
+		{
+			"index": "htmpa-03",
+			"label": "Você já teve ou já tem: Doenças Respiratórias",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": ["Asma", "Doenças pulmonares", "Sinusite", "Rinite"]
+		},
+		{
+			"index": "htmpa-04",
+			"label": "Você já teve ou já tem: Doenças Gastrointestinais",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": ["Gastrite", "Úlceras", "Cirrose"]
+		},
+		{
+			"index": "htmpa-05",
+			"label": "Você já teve ou já tem: Doenças Genitourinárias",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": [
+				"Infecções do trato urinário",
+				"Doenças ginecológicas",
+				"Doenças renais",
+				"Nefrite",
+				"Insuficiência renal",
+				{
+					"index": "htmpa-05-01",
+					"label": "Faz hemodiálise? Se sim, quais?",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"index": "htmpa-06",
+			"label": "Você já teve ou já tem: Disturbios Endócrinos",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": true,
+			"items": [
+				"Diabete",
+				"Disfunção de tireóide",
+				{
+					"index": "htmpa-06-01",
+					"label": "Menarca (anos)",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				},
+				{
+					"index": "htmpa-06-02",
+					"label": "Menopausa (anos)",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				},
+				{
+					"index": "htmpa-06-03",
+					"label": "Partos (nº)",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"index": "htmpa-07",
+			"label": "Você já teve ou já tem: Disturbios Neurológicos",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": [
+				"Desmaios",
+				"Convulsões",
+				"Enxaquecas",
+				"Cafaléias",
+				"Nevralgia na face"
+			]
+		},
+		{
+			"index": "htmpa-08",
+			"label": "Você já teve ou já tem: Disturbios Hematológicos",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": true,
+			"items": [
+				"Anemia",
+				"Hemorragia",
+				"Hemofilia",
+				"Leucemia",
+				{
+					"index": "htmpa-08-01",
+					"label": "Doou ou recebeu sangue? Se sim, quando?",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"index": "htmpa-09",
+			"label": "Você já teve ou já tem: Disturbios Psiquiátricos",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": ["Tratamento psiquiátrico", "Depressão", "Ansiedade"]
+		},
+		{
+			"index": "htmpa-10",
+			"label": "Você já teve ou já tem: Disturbios das Articulações/Ossos",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": [
+				"Traumatismos na face",
+				"Artrite",
+				"Reumatismo",
+				"Osteoporose"
+			]
+		},
+		{
+			"index": "htmpa-11",
+			"label": "Você já teve ou já tem: Disturbios das Articulação Têmporomandibular",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": [
+				"Bruxismo Cêntrico",
+				"Bruxismo Excêntrico",
+				"Mastigação unilateral",
+				"Dor na região dos ouvidos",
+				"Estalido na abertura e fechamento bucal"
+			]
+		},
+		{
+			"index": "htmpa-12",
+			"label": "Você já teve ou já tem: Doenças Transmissiveis",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": true,
+			"items": [
+				"Hepatite",
+				"Herpes",
+				"HIV",
+				"Tuberculose",
+				{
+					"index": "htmpa-12-01",
+					"label": "Doenças Sexualmente Transmissível",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"index": "htmpa-13",
+			"label": "Você já teve ou já tem: Alergias",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": true,
+			"items": [
+				"Anestesia",
+				"Alimentos",
+				"Cosméticos",
+				"Urticária",
+				{
+					"index": "htmpa-12-01",
+					"label": "Utiliza medicamentos para as alergias?",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"index": "htmpa-14",
+			"label": "Faz uso de medicamentos? Nome comercial, nome genérico, dosagem e frequência de uso",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": true
+		},
+		{
+			"index": "htmpa-15",
+			"label": "Visitas médicas",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-16",
+			"label": "Hospitalizações",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-17",
+			"label": "Observações",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-18",
+			"label": "Predisposição Hereditária: Pai",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-19",
+			"label": "Predisposição Hereditária: Mãe",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-20",
+			"label": "Predisposição Hereditária: Irmãos",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-21",
+			"label": "Predisposição Hereditária: Doenças",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": true,
+			"items": [
+				"Cardiopatias",
+				"Hipertensão",
+				"Diabete",
+				"Asma",
+				"Distúrbios do sangramento",
+				"Alergias",
+				"Neoplastia Malígnas",
+				"Doenças neurológicas",
+				"Tuberculose",
+				{
+					"index": "htmpa-21-01",
+					"label": "Complemento",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"index": "htmpa-22",
+			"label": "Hábitos: Álcool (Início e Frequência)",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-23",
+			"label": "Hábitos: Fumo (Início e Frequência)",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-24",
+			"label": "Hábitos: Outros hábitos nocivos",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-25",
+			"label": "Hábitos: Escovação",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-26",
+			"label": "Hábitos: Fio Dental",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "htmpa-27",
+			"label": "Hábitos: Enxaquatório bucal",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "text",
+			"highlight": false
+		},
+
+		{
+			"index": "ef-01",
+			"label": "Sinais vitais: Pressão Arterial",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-02",
+			"label": "Sinais vitais: Frequência Respiratória",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-03",
+			"label": "Sinais vitais: Pulso",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-04",
+			"label": "Sinais vitais: Temperatura Axilar",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-05",
+			"label": "Ectoscopia (Exame extrabucal) (fácies, cadeias linfáticas, ATM, músculos mastigatórios)",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-06",
+			"label": "Oroscopia (Exame intrabucal) (lábio, mucosa jugal, fundo de saco vestibular, língua, assoalho de boca, trígono retromolar, palato, orofaringe, periodonto, dentes)",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-07",
+			"label": "Exames complementares solicitados",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-08",
+			"label": "Pedido de avaliação médica",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "multioption",
+			"highlight": false,
+			"items": ["Sim", "Não"]
+		},
+		{
+			"index": "ef-09",
+			"label": "Pedido de avaliação médica: motivo",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-10",
+			"label": "Pedido de avaliação médica: data",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-11",
+			"label": "Pedido de avaliação médica: Parecer médico",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-12",
+			"label": "Pedido de avaliação médica: Paciente portador de",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-13",
+			"label": "Pedido de avaliação médica: necessita de cuidados especiais em relação a",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		},
+		{
+			"index": "ef-14",
+			"label": "Observações",
+			"description": "Descrição da pergunta e o motivo de perguntá-la.",
+			"type": "text",
+			"highlight": false
+		}
+	]
+}

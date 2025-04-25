@@ -1,0 +1,52 @@
+{
+	"questions": [
+		{
+			"index": "tdd-01",
+			"label": "Nos últimos 30 dias, quanto tmepo durou qualquer dor que voce teve na mandibula ou na região temporal em qualquer um dos lados?",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"highlight": false,
+			"items": [
+				"a. Não tive dor",
+				"b. Dor aparecia e desaparecia",
+				"c. Dor estava sempre presente"
+			]
+		},
+		{
+			"index": "tdd-02",
+			"label": "Nos últimos 30 dias, voce teve dor ou rigidez na sua mandibula ao acordar?",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"highlight": false,
+			"items": ["a. Não ", "b. Sim"]
+		},
+		{
+			"index": "tdd-03",
+			"label": "A. Mastigar alimentos duros ou consistentes",
+			"description": "Nos últimos 30 dias, as seguintes atividades mudaram qualquer dor(isto é, fizeram ela melhorar ou piorar) na sua mandíbula ou região temporal em qualquer um dos lados",
+			"type": "multioption",
+			"items": ["a. Não", "b. Sim"]
+		},
+		{
+			"index": "tdd-04",
+			"label": "B. Abrir a boca ou movimentar a mandíbula para frente ou para o lado",
+			"description": "Nos últimos 30 dias, as seguintes atividades mudaram qualquer dor(isto é, fizeram ela melhorar ou piorar) na sua mandíbula ou região temporal em qualquer um dos lados",
+			"type": "multioption",
+			"items": ["a. Não", "b. Sim"]
+		},
+		{
+			"index": "tdd-05",
+			"label": "C. Hábitos ou manias com a mandíbula(boca), como manter os dentes juntos, apertar ou ranger os dentes, ou mastigar chiclete",
+			"description": "Nos últimos 30 dias, as seguintes atividades mudaram qualquer dor(isto é, fizeram ela melhorar ou piorar) na sua mandíbula ou região temporal em qualquer um dos lados",
+			"type": "multioption",
+			"items": ["a. Não", "b. Sim"]
+		},
+		{
+			"index": "tdd-06",
+			"label": "D. Outras atividades com mandíbula(boca) como falar, beijar, bocejar",
+			"description": "Nos últimos 30 dias, as seguintes atividades mudaram qualquer dor(isto é, fizeram ela melhorar ou piorar) na sua mandíbula ou região temporal em qualquer um dos lados",
+			"type": "multioption",
+			"items": ["a. Não", "b. Sim"]
+		}
+	]
+}

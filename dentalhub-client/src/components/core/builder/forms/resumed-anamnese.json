@@ -1,0 +1,55 @@
+{
+	"questions": [
+		{
+			"index": "qp-01",
+			"label": "Queixa Principal",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"highlight": false,
+			"type": "text"
+		},
+
+		{
+			"index": "htmpa-02",
+			"label": "Você já teve ou já tem: Distúrbios Cardiovasculares",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": true,
+			"items": [
+				"Febre reumática",
+				"Sopros",
+				"Patologias de válvulas",
+				"Anomalias congênitas cardíacas",
+				"Hipertensão",
+				"Arritmias",
+				"Infarto do miocárdio",
+				"Angina ou dor no tórax",
+				"Cirurgias Cardíacas",
+				"Marca-passo",
+				"AVC (Derrame)"
+			]
+		},
+		{
+			"index": "htmpa-05",
+			"label": "Você já teve ou já tem: Doenças Genitourinárias",
+			"description": "Descrição da pergunta e o motivo de perguntá-la",
+			"type": "multioption",
+			"others": true,
+			"highlight": false,
+			"items": [
+				"Infecções do trato urinário",
+				"Doenças ginecológicas",
+				"Doenças renais",
+				"Nefrite",
+				"Insuficiência renal",
+				{
+					"index": "htmpa-05-01",
+					"label": "Faz hemodiálise? Se sim, quais?",
+					"description": "Descrição da pergunta e o motivo de perguntá-la",
+					"required": false,
+					"type": "text"
+				}
+			]
+		}
+	]
+}
